@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
      inner_key = inner_key.map {|word| word.capitalize }.join(' ')
      inner_value = inner_value.join(", ")
      puts "  #{inner_key}: #{inner_value}"
-   end 
+   end
  end
 end
 
