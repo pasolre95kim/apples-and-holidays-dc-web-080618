@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
         inner_value = inner_value.join(", ")
         puts "#{inner_key}: #{inner_value}"
       end
-    ed
+    end
 end
 
 def all_holidays_with_bbq(holiday_hash)
